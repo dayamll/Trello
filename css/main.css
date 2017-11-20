@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('../assets/images/piramid.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header nav {
+    background-color: rgb(48, 104, 189);
+    height: 45px;
+    width: 100%;
+    color: white;
+}
+
+header img {
+    width: 100px;
+}
+
+header figure {
+    width: 100px;
+    height: 30px;
+    margin: 5px 0 0px 25%;
+}
+
+.firstSideLeft,
+.secondSideRigth,
+header figure,
+.box-input-search {
+    float: left;
+    height: 40px;
+}
+
+.search {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.search i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.search input {
+    border: none;
+    background: transparent;
+    height: 25px;
+}
+
+.secondSideRigth li {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.secondSideRigth {
+    margin-left: 400px;
+}
+
+.img-small {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.titleOptions {
+    color: white;
+    margin: 10px;
+}
+
+.titleOptions li {
+    display: inline-block;
+    margin: 0px 5px;
+    box-sizing: content-box;
+    padding: 5px;
+}
+
+.titleOptions li:hover {
+    background-color: rgba(25, 27, 25, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-list input {
+    border: none;
+    width: 270px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(25, 27, 25, 0.3);
+    color: rgb(39, 34, 34);
+    padding: 10px;
+    font-size: 14px;
+    float: left;
+}
+
+.add-list input:hover {
+    background-color: rgba(25, 27, 25, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 90px;
+    height: 40px;
+    background-color: #5aac44;
+    margin: 0 5px 5px 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.btn:hover {
+    background-color: #4d9439;
+}
+
+.tableros {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.tableros span {
+    margin-right: 10px;
+}
